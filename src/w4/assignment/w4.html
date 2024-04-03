@@ -20,13 +20,15 @@
       }
 
       body {
-        background-color: #f1eee8;
+        background-color: #928f89;
         padding: 32px;
       }
 
       .container {
         max-width: 64rem;
         background-color: #f1eee8;
+        padding: 32px;
+        margin-inline: auto;
       }
 
       img {
@@ -37,45 +39,61 @@
         background-color: #dcccad;
         padding: 1rem;
         border-radius: 8px;
+        font-size: 14px;
+        font-weight: 400;
       }
       .step {
         font-size: 23px;
         font-weight: 500;
+        color: #24211d;
       }
       .atype {
         font-size: 35px;
         font-weight: 700;
+        color: #24211d;
       }
       .btype {
         font-size: 18px;
         font-weight: 500;
+        color: #24211d;
       }
       .ctype {
         font-size: 18px;
         font-weight: 400;
+        color: #24211d;
       }
       .dtype {
         font-size: 14px;
         font-weight: 400;
       }
+      table {
+        border: 10px;
+        border-collapse: collapse;
+        max-width: 100%;
+      }
+      td {
+        padding: 0px 12px 0px 12px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>파스타 카르보나라</h1>
+      <h1 style="font-size: 69px; font-weight: 700">파스타 카르보나라</h1>
       <p style="margin-block: 8px">
-        <stong style="font-weight: 700">CLAIRE SAFFITZ</stong>
+        <stong style="font-size: 18px; font-weight: 700">CLAIRE SAFFITZ</stong>
       </p>
       <p style="margin-block: 8px">
-        <em style="font-style: normal; font-weight: 700">레서피</em>
+        <em style="font-style: normal; font-size: 18; font-weight: 500"
+          >레서피</em
+        >
       </p>
-      <p class="dtype">2023.01.04</p>
+      <p class="dtype" style="color: #585550">2023.01.04</p>
       <img
         src="../../../assets/pasta-carbonara.jpg"
         alt="흰 접시 위에 담긴 카르보나라 파스타 관찰레가 같이 버무려져있다"
         style="padding: auto; padding-block: 24px 8px; display: block"
       />
-      <p class="dtype" style="margin-bottom: 24px">
+      <p class="dtype" style="margin-bottom: 24px; color: #585550">
         사진: Chelsie Craig, 스타일링: Molly Baz
       </p>
       <p class="btype" style="margin-bottom: 16px">
@@ -106,43 +124,43 @@
         저녁 식사 때는 이 파스타 요리를 샐러드와 함께 제공하는 것이 좋지만, 밤새
         놀고 난 뒤라면 그저 포크를 집어 파스타만 먹어도 됩니다.
       </p>
-      <p class="callout" class="dtype" style="margin-bottom: 48px">
+      <p class="callout" style="margin-bottom: 48px">
         본 앱티트에 표시된 모든 제품은 편집자가 협찬을 받지 않고 독립적으로
         선택한 것입니다. 그러나 아래의 소매 링크를 통해 구매해주신다면 저희가
         수수료를 받기에 도움이 됩니다.
       </p>
       <h2 class="atype">재료</h2>
-      <p style="margin-block: 12px">4인분기준</p>
+      <p style="margin-block: 12px; color: #585550">4인분기준</p>
       <table>
-        <tr class="ctype">
+        <tr class="ctype" style="border-bottom: 2px solid#b1ada8">
           <td>수량</td>
           <td>단위</td>
           <td>품목</td>
         </tr>
         <tr class="ctype">
-          <td>3</td>
+          <td style="text-align: right">3</td>
           <td>Tbsp.</td>
           <td>코셔 소금</td>
         </tr>
         <tr class="ctype">
-          <td>4</td>
+          <td style="text-align: right">4</td>
           <td>oz.</td>
           <td>
             관찰레(염장 돼지볼살) 혹은 판체타(이탈리안 베이컨) 혹은 베이컨
           </td>
         </tr>
         <tr class="ctype">
-          <td>2</td>
+          <td style="text-align: right">2</td>
           <td>oz.</td>
           <td>파르마지아노 레지아노 혹은 페코리노 로마노</td>
         </tr>
         <tr class="ctype">
-          <td>4</td>
+          <td style="text-align: right">4</td>
           <td></td>
           <td>대란 노른자</td>
         </tr>
         <tr class="ctype">
-          <td>2</td>
+          <td style="text-align: right">2</td>
           <td></td>
           <td>대란</td>
         </tr>
@@ -152,12 +170,12 @@
           <td>막 간 후추</td>
         </tr>
         <tr class="ctype">
-          <td>2</td>
+          <td style="text-align: right">2</td>
           <td>Tbsp.</td>
           <td>엑스트라 버진 올리브 오일</td>
         </tr>
         <tr class="ctype">
-          <td>1</td>
+          <td style="text-align: right">1</td>
           <td>lb.</td>
           <td>스파게티 혹은 부카티니 혹은 리가토니</td>
         </tr>
@@ -232,7 +250,7 @@
         관찰레를 섞어서 파스타를 그릇에 나누어주세요. 후추와 따로 떼어둔
         치즈가루로 꾸며주세요.
       </p>
-      <p class="callout" class="dtype">
+      <p class="callout">
         편집자의 참고 사항: 이 레시피는 원래 2018년 1월호에 게재되었습니다. 더
         많은 최고의 파스타 레시피를 확인하려면 여기를 참조하세요.
       </p>

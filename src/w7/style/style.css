@@ -64,3 +64,53 @@ h2 {
   flex-basis: 0;
   flex-grow: 1;
 }
+
+.flex-container-opt-1 {
+  /*gap: 1rem;*/
+  column-gap: 1rem;
+  row-gap: 1.5rem;
+}
+
+.flex-container-opt-2 {
+  /*justify-content: left;*/
+  /*justify-content: right;*/
+  /*justify-content: center;*/
+  /*justify-content: space-evenly; 111111*/
+  /*justify-content: space-between; 011110*/
+  /*justify-content: space-around;122221*/
+  justify-content: space-evenly;
+}
+
+.flex-container-opt-3 {
+  /*align-items: stretch;*/
+  /*align-items: start;*/
+  /*align-items: end;*/
+  /*align-items: center;*/
+}
+
+.flex-container-opt-4 {
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-opt-4 > * {
+  width: 7.5rem; /*일정사이즈가 됨*/
+}
+
+.flex-wrap {
+  /*flex-wrap: nowrap; 기본값*/
+  flex-wrap: wrap;
+}
+
+/*여기부터가 flex 쓰는 실질적 방법*/
+.flex-wrap-opt-1 {
+  column-gap: 0.75rem;
+  row-gap: 1.5rem;
+}
+
+.flex-wrap-opt-1 > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 16rem;
+}

@@ -53,6 +53,9 @@ h2 {
   display: flex;
 }
 
+/* .flex-container > * { */
+/* flex-grow: 1; */
+/* } */
 .flex-child-opt-1 {
   flex-grow: 1;
 }

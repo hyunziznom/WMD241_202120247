@@ -105,12 +105,12 @@ h2 {
 
 /*여기부터가 flex 쓰는 실질적 방법*/
 .flex-wrap-opt-1 {
-  column-gap: 0.75rem;
+  column-gap: 4rem;
   row-gap: 1.5rem;
 }
 
 .flex-wrap-opt-1 > * {
   flex-grow: 1;
-  flex-basis: 0;
+  flex-basis: 1;
   min-width: 16rem;
 }

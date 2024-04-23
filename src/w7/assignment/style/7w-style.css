@@ -77,6 +77,13 @@ body {
 
 .main {
   background-color: #ffffff;
+  margin: 0 auto;
+  padding: 6.25rem 1.875rem;
+  justify-content: center;
+}
+
+.main > div {
+  display: flex;
 }
 
 .bottom-bar {
@@ -90,7 +97,7 @@ body {
 }
 
 .flex-wrap-opt-1 {
-  column-gap: 0.75rem;
+  column-gap: 4rem;
   row-gap: 1.5rem;
 }
 

@@ -79,17 +79,68 @@ body {
   background-color: #ffffff;
   margin: 0 auto;
   padding: 6.25rem 1.875rem;
-  justify-content: center;
+  gap: 1rem;
 }
 
-.main > div {
-  display: flex;
+.main > * {
+  align-items: first baseline;
+  align-content: center;
+  justify-content: space-around;
+  width: 33.75rem; /*일정사이즈가 됨*/
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.info {
+  width: 385px;
+  padding-right: 24px;
+}
+
+.info-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 3rem 0rem 1rem;
+}
+
+.info-read {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .bottom-bar {
   background-color: black;
   color: #ffffff;
-  padding: 1.875rem 3.75rem;
+  padding-inline: 130px;
+  padding-bottom: 160px;
+  justify-content: space-between;
+  row-gap: 3rem;
+}
+
+.bottom-content {
+  padding-right: 48px;
+}
+
+.bottom-read {
+  font-size: 1rem;
+  margin: 0rem;
+}
+
+.bottom-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 48px 0px 16px;
+}
+
+.bottom-contact {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
 
 .flex-wrap {

@@ -18,23 +18,43 @@ body {
   justify-content: space-between;
 }
 
+.logo {
+  max-width: 60%;
+  max-height: 60%;
+}
+
 .topbar__left {
   display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding-left: 7.5rem;
+  align-items: center;
 }
 
 .topbar__right {
   display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding-right: 7.5rem;
+  align-items: center;
 }
 
 .topbar__contents {
   display: flex;
-  margin: 0rem 0.5rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin-right: 1rem;
 }
 
 .topbar__right__box {
   background-color: #381fd1;
   color: #ffffff;
   margin: 0rem 0.5rem;
+  padding: 8px;
+  border: 2px #381fd1;
+  border-style: solid;
+  border-radius: 0.375rem;
+  align-items: center;
 }
 
 .sidebar {
@@ -45,20 +65,68 @@ body {
 
 .main__content__first {
   display: grid;
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
-  row-gap: 1.5rem;
-  grid-template-columns: 12.5rem repeat(auto-fit, minmax(15rem, 1fr));
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 2rem;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 16.3125rem repeat(auto-fit, minmax(15rem, 1fr));
   max-width: 80rem;
 }
 
 .main__content__second {
   display: grid;
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
-  row-gap: 1.5rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
   grid-template-columns: 12.5rem repeat(auto-fit, minmax(15rem, 1fr));
   max-width: 80rem;
+  position: relative;
+}
+
+.main__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.main__view {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #381fd1;
+}
+
+.card__first {
+  padding: 1.5rem 1.5rem 3.75rem;
+  border: 1px rgb(229, 229, 230);
+  border-style: solid;
+  border-radius: 8px;
+  width: 16.3125rem;
+  height: 14.6875rem;
+}
+
+.cardimg {
+  max-width: 30%;
+  max-height: 30%;
+}
+
+.card__second {
+  padding: 1.5rem 1.5rem 7.5rem;
+  border: 1px rgb(229, 229, 230);
+  border-style: solid;
+  border-radius: 8px;
+  width: 16.3125rem;
+  height: 350px;
+}
+
+.card__title {
+  font-size: 16px;
+  margin: 12px 0px 8px;
+  color: #381fd1;
+}
+
+.card__desc {
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .index {

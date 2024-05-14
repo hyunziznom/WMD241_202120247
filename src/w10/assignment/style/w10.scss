@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.topbar {
+  display: flex;
+  background-color: #f6f6eb;
+  color: #381fd1;
+  font-size: 0.875rem;
+  font-weight: 900;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.topbar__left {
+  display: flex;
+}
+
+.topbar__right {
+  display: flex;
+}
+
+.topbar__contents {
+  display: flex;
+  margin: 0rem 0.5rem;
+}
+
+.topbar__right__box {
+  background-color: #381fd1;
+  color: #ffffff;
+  margin: 0rem 0.5rem;
+}
+
+.sidebar {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  padding: 0.75rem;
+}
+
+.main__content__first {
+  display: grid;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  grid-template-columns: 12.5rem repeat(auto-fit, minmax(15rem, 1fr));
+  max-width: 80rem;
+}
+
+.main__content__second {
+  display: grid;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  grid-template-columns: 12.5rem repeat(auto-fit, minmax(15rem, 1fr));
+  max-width: 80rem;
+}
+
+.card {
+}
+
+.index {
+  display: grid;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  grid-template-columns: 12.5rem repeat(auto-fit, minmax(15rem, 1fr));
+  max-width: 80rem;
+  background-color: #10284b;
+  color: #ffffff;
+}

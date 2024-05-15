@@ -139,7 +139,7 @@ body {
        column-gap: 2rem;
   row-gap: 2rem;
   grid-auto-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
   max-width: 80rem;
 }
 
@@ -147,7 +147,7 @@ body {
   display: grid;
   -moz-column-gap: 2rem;
        column-gap: 2rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   max-width: 80rem;
 }
 
@@ -157,7 +157,7 @@ body {
   font-size: 3rem;
   font-weight: 900;
   align-items: center;
-  margin-block: 0rem;
+  margin-bottom: 0;
 }
 
 .main__subtitle {

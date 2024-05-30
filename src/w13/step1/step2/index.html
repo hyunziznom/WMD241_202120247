@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lottie embeding</title>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script>
+      LottieInteractivity.create({
+        player: "#lottie-2",
+        mode: "cursor",
+        actions: [
+          {
+            type: "click",
+            forceFlag: false,
+          },
+        ],
+      });
+    </script>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h1>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, dolor.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          pariatur esse, earum optio fugiat veritatis iure voluptatibus nulla
+          porro illum dignissimos obcaecati sit a beatae ipsa rem error deserunt
+          omnis! Amet hic sunt facere, pariatur perferendis magni voluptatem,
+          neque sed consectetur quisquam maxime suscipit culpa quae odio,
+          praesentium fugit dolore!
+        </p>
+
+        <dotlottie-player
+          id="lottie-1"
+          class="lottie"
+          src="./assets/lottie-downloaded.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></dotlottie-player>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
+          accusantium possimus! Excepturi a commodi quod dolor unde aperiam
+          pariatur nihil!
+        </p>
+        <lottie-player
+          id="lottie-2"
+          class="lottie"
+          src="./assets/lottie-downloaded.json"
+          background="transparent"
+          speed="1"
+        ></lottie-player>
+      </div>
+    </div>
+  </body>
+</html>
